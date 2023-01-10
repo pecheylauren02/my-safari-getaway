@@ -26,6 +26,20 @@ h1, h2 {
     font-size: 300%;
 }
 
+/* nav links and menu section */
+
+#menu_section {
+    font-size: 105%;
+    letter-spacing: 4px;
+    display: inline-block;
+}
+
+#menu_section li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
 #hero-image {
     height: 600px;
     width: 100%;
