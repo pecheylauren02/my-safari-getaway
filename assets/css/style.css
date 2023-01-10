@@ -32,18 +32,11 @@ h1, h2 {
     font-size: 105%;
     letter-spacing: 4px;
     display: inline-block;
+    text-transform: capitalize;
 }
 
 #menu_section li {
     float: right;
     list-style-type: none;
-    margin-right: 30px;
-}
-
-#hero-image {
-    height: 600px;
-    width: 100%;
-    min-height: 100%;
-    max-width: 100%;
-    background: url('../images/home_page/buffalo_herd.jpg') no-repeat center center;
+    margin-right: 28px;
 }
