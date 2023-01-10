@@ -40,3 +40,8 @@ h1, h2 {
     list-style-type: none;
     margin-right: 28px;
 }
+
+/* footer */
+footer {
+    height: 200px;
+}
