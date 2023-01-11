@@ -122,6 +122,20 @@ hr {
     border-radius: 25px;
 }
 
+/* activities page */
+#activities {
+    width: 33%;
+    margin: 0 auto;
+    font-size: 120%;
+    text-align: center;
+}
+
+#left-activities {
+    height: 600px;
+    width: 100%;
+    background: url('../images/activities_page/game_drive1.jpg') no-repeat center center;
+}
+
 /* footer section */
 footer {
     height: 200px;
