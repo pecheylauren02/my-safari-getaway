@@ -88,7 +88,8 @@ h1, h2 {
 #center-reasons {
     width: 33%;
     margin: 0 auto;
-    background-color: blue;
+    font-size: 120%;
+    text-align: center;
 }
 
 .left-reasons-heading {
@@ -124,6 +125,11 @@ hr {
 /* footer section */
 footer {
     height: 200px;
+    background-color: #04AA6D;
+    color: rgb(72, 72, 72);
+    padding: 20px;
+    text-align: center;
+    font-size: 120%;
 }
 
 .footer-clean {
