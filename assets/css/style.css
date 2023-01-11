@@ -9,7 +9,7 @@
 body {
     font-family: "Baskerville", sans-serif;
     font-weight: 400px;
-    color: rgb(128,128,128);
+    color: rgb(72, 72, 72);
 }
 
 /* headings and logo text */
@@ -43,6 +43,20 @@ h1, h2 {
     border: 2px solid #FD5E53;
     padding: 15px;
     border-radius: 25px;
+}
+
+#menu-section a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu-section a:hover {
+    border-bottom: 2px solid #FD5E53;
+    color:#FD5E53;
+}
+
+.active {
+    border-bottom: 1px solid #FD5E53;
 }
 
 /* footer section */
