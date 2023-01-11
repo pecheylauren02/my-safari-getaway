@@ -92,11 +92,15 @@ h1, h2 {
 }
 
 .left-reasons-heading {
+    font-size: 80%;
     width: 59%;
     float: right;
     line-height: 25px;
     clear: both;
     margin-bottom: 55px;
+    border: 2px solid #04AA6D;
+    padding: 10px;
+    border-radius: 25px;
 }
 
 hr {
@@ -106,11 +110,15 @@ hr {
 }
 
 .right-reasons-heading {
+    font-size: 80%;
     width: 59%;
     float: left;
     line-height: 25px;
     clear: both;
     margin-bottom: 55px;
+    border: 2px solid #04AA6D;
+    padding: 15px;
+    border-radius: 25px;
 }
 
 /* footer section */
