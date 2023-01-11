@@ -19,6 +19,7 @@ h1, h2 {
     text-transform: uppercase;
     letter-spacing: 5px;
     color:rgb(72, 72, 72);
+    padding: 20px;
 }
 
 #logo-text {
@@ -33,7 +34,7 @@ h1, h2 {
     letter-spacing: 4px;
     display: inline-block;
     text-transform: capitalize;
-    
+    padding: 20px;
 }
 
 #menu-section li {
@@ -59,6 +60,27 @@ h1, h2 {
     border-bottom: 1px solid #FD5E53;
 }
 
+/* hero-image and slideshow */   
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url(../images/home_page/giraffe_landscape.jpg) no-repeat center center;
+}
+
+#hero-image-text, #hero-image-text h2 {
+    color: white;
+}
+
+#hero-image-text {
+    font-size: 120%;
+    font-family: Baskerville, sans-serif;
+    letter-spacing: 3px;
+    text-transform:capitalize;
+
+    padding-top: 40px;
+    padding-left: 10px;
+}
 /* footer section */
 footer {
     height: 200px;
@@ -78,3 +100,5 @@ footer {
     padding: 5%;
     color:rgb(72, 72, 72)
 }
+
+
