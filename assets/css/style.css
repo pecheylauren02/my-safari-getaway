@@ -83,7 +83,6 @@ h1, h2 {
     padding-top: 30px;
     width: 33%;
     float: right;
-    background-color: red;
 }
 
 #center-reasons {
@@ -104,6 +103,14 @@ hr {
     border-top: 2px solid rgb(72, 72, 72);
     width: 100%;
     margin: 6px 0;
+}
+
+.right-reasons-heading {
+    width: 59%;
+    float: left;
+    line-height: 25px;
+    clear: both;
+    margin-bottom: 55px;
 }
 
 /* footer section */
