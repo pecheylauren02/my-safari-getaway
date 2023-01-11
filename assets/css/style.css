@@ -41,7 +41,7 @@ h1, h2 {
     float: right;
     list-style-type: none;
     margin-right: 28px;
-    border: 2px solid #FD5E53;
+    border: 2px solid #04AA6D;
     padding: 15px;
     border-radius: 25px;
 }
@@ -52,12 +52,12 @@ h1, h2 {
 }
 
 #menu-section a:hover {
-    border-bottom: 2px solid #FD5E53;
-    color:#FD5E53;
+    border-bottom: 2px solid #04AA6D;
+    color: #04AA6D;
 }
 
 .active {
-    border-bottom: 1px solid #FD5E53;
+    border-bottom: 1px solid #04AA6D;
 }
 
 /* hero-image and slideshow */   
@@ -65,27 +65,26 @@ h1, h2 {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url(../images/home_page/giraffe_landscape.jpg) no-repeat center center;
+    background: url(../images/home_page/wide_sunsetcropped.png) no-repeat center center;
 }
 
-#hero-image-text, #hero-image-text h2 {
-    color: white;
-}
-
-#hero-image-text {
-    font-size: 120%;
-    font-family: Baskerville, sans-serif;
-    letter-spacing: 3px;
-    text-transform:capitalize;
-
-    padding-top: 40px;
-    padding-left: 10px;
-}
 /* footer section */
 footer {
     height: 200px;
 }
 
+.footer-clean {
+    padding: 45px 0;
+    background-color: #fff;
+    color: #4b4c4d;
+}
+
+.footer-clean h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 17px;
+}
 .social-links {
     text-align: center;
 }
@@ -98,7 +97,23 @@ footer {
     font-size: 150%;
     margin: 2%;
     padding: 5%;
-    color:rgb(72, 72, 72)
+    color:rgb(72, 72, 72);
+
 }
 
+.footer-content h3, .contact {
+    font-family: Baskerville;
+    font-size: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+}
 
+/* below credit to https://epicbootstrap.com/snippets/footer-basic */
+
+.footer-content .copyright {
+    margin-top:17px;
+    text-align: center;
+    font-size: 15px;
+    color: #aaa;
+    margin-bottom: 0;
+}
