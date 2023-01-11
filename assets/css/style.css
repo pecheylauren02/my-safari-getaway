@@ -77,7 +77,6 @@ h1, h2 {
     padding-top: 30px;
     width: 33%;
     float: left;
-    background-color: green;
 }
 
 #right-reasons {
@@ -91,6 +90,20 @@ h1, h2 {
     width: 33%;
     margin: 0 auto;
     background-color: blue;
+}
+
+.left-reasons-heading {
+    width: 59%;
+    float: right;
+    line-height: 25px;
+    clear: both;
+    margin-bottom: 55px;
+}
+
+hr {
+    border-top: 2px solid rgb(72, 72, 72);
+    width: 100%;
+    margin: 6px 0;
 }
 
 /* footer section */
